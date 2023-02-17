@@ -2,7 +2,7 @@ class Media:
     arrayNotas=[]
     def notas(self):
         return self.arrayNotas
-   AAA
+    
     def add(self, number):
         if number<0 or number > 10:
             raise ValueError
